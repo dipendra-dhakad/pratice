@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.2"
   },
   "name": "class-auth",
@@ -9,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm index.js",
-     "dev" :"nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",

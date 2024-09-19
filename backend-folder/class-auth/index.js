@@ -15,7 +15,7 @@ require("./config/database").connect();
 
 const user = require("./routes/user");
 
-app.use("api/v1",user);
+app.use("/api/v1",user);
 
 //activate
 
